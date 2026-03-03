@@ -44,8 +44,8 @@ int main() {
     cout<<"n = ";
     cin >> n;
     vector<int> v=problem_a(n);
-    for (int i=0; i<v.size(); i++) {
-        cout<<v[i]<<" ";
+    for (int i:v) {
+        cout<<i<<" ";
     }
 
     return 0;

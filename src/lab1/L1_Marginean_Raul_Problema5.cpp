@@ -38,6 +38,7 @@ vector<int> problem_b(vector<int> v) {
         start=m;
         end=n;
     }
+
     return {v.begin()+start,v.begin()+end+1};
 }
 
@@ -49,7 +50,7 @@ int main() {
     cout<<"n = ";
     cin>>n;
     cout<<problem_a(x,n)<<endl;
-    vector<int> v={1,4,-2,-2,10,-3,4,-2,1};
+    vector<int> v;
     cout<<"Enter numbers(0 means stop): ";
     int nr;
     cin>>nr;
